@@ -271,12 +271,8 @@ int main() {
   /* Initialize the snake doubly-linked list */
   snake = initialize_snake();
 
-  printf("got here\n");
-
   /* Initialize the apple */
   apple = initialize_apple();
-
-  printf("got here 2\n");
 
   /* Array to store string of '#' with length of board size */
   char board_edge[GRID_SIZE + 3];
@@ -319,6 +315,8 @@ int main() {
     }
   }
 
+  int score = size_of_snake();
+
   /* Free memory allocated by snake */
   free_snake();
 
@@ -327,6 +325,8 @@ int main() {
 
   /* End ncurses window */
   endwin();
+
+  printf("Game over. Score: %d", score - START_SIZE);
 
   return 0;
 }
