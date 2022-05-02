@@ -2,7 +2,11 @@
 #define MAIN_H
 
 #define GRID_SIZE 9
-#define SNAKE_CHAR '0'
+#define START_SIZE 4
+
+#define GRID_CHAR  '#'
+#define SNAKE_HEAD '0'
+#define SNAKE_CHAR '*'
 #define APPLE_CHAR '@'
 
 typedef struct node {
@@ -20,8 +24,5 @@ typedef struct snake_t {
 typedef struct apple {
   int x, y;
 } apple_t;
-
-extern snake_t *initialize_snake();
-extern apple_t *initialize_apple();
 
 #endif //MAIN_H
