@@ -9,5 +9,4 @@
 # Example
 ![Example Snake Image](https://github.com/Trevin-Small/C-Snake/blob/main/snake.gif)
 - The game board size can be set in the header file
-- The game runs at 1fps (lol)
 - Touching the walls or running into your tail ends the game.
