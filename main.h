@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define GRID_SIZE 25
+#define GRID_SIZE 13
 #define START_SIZE 4
 
 #define GRID_CHAR  '#'
