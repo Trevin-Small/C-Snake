@@ -326,6 +326,7 @@ int main() {
   /* End ncurses window */
   endwin();
 
+  /* Print final score out to terminal */
   printf("Game over. Score: %d", score - START_SIZE);
 
   return 0;

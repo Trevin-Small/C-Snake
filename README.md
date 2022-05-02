@@ -1,6 +1,6 @@
 # C Snake Game
 ### A doubly-linked list based snake clone written in C.
-- The snake is represented as a double-linked list.
+- The snake is represented as a doubly-linked list, where each section is a node.
 - Moving forwards involves popping the tail node from the list, and prepending it to the head. Its coordinates are then modified in respect to the direction the snake is moving.
 - When an apple is touched, its new position is randomized (ensuring that the apple is not spawned on the snake)
 - Adding to the snake allocates the memory for a new node, and prepends it to the snake, becoming the new head.
