@@ -129,8 +129,6 @@ void move_apple() {
   int new_x;
   int new_y;
 
-  //srandom(time(NULL));
-
   do {
 
     new_x = random() % GRID_SIZE + 1;
